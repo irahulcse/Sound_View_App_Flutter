@@ -10,7 +10,8 @@ If you had like the project pls hit the star :+1: icon.
 The Parent Repository of this project can be found on this [link](https://github.com/irahulcse/A-Complete-Guide-To-Flutter).
 
 # Live Working Project:
-[Demo Application](https://irahulcse.github.io/Rovers_Guide_Fluter/)
+
+[Demo Application](https://irahulcse.github.io/Sound_View_App_Flutter/)
 
 ## Features Needed to Be Added:
 
@@ -32,7 +33,7 @@ I am currently looking for Full Time/ Internship Offer for any Software Developm
 
 ### Screenshots and Working GIFS:
 
-<img src="images/rovers.gif" height="300em" /> <img src="images/1.jpg" height="300em" /> <img src="images/2.jpg" height="300em" />
+<img src="images/report.gif" height="300em" /> <img src="images/1.jpg" height="300em" /> <img src="images/2.jpg" height="300em" />
 
 
  Sorry for the quality of the GIF :pray:
