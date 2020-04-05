@@ -1,5 +1,5 @@
-class NewSounds {
-  List<String> _sounds = [
+class WowSounds {
+  List<String> _wows = [
     'assets/sounds/wow1.mp3',
     'assets/sounds/wow2.mp3',
     'assets/sounds/wow3.mp3',
@@ -18,5 +18,5 @@ class NewSounds {
 
   ];
 
-  get sounds=>_sounds;
+  get wows=>_wows;
 }
