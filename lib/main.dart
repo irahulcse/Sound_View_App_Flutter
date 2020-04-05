@@ -159,6 +159,7 @@
 //   }
 // }
 
+import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audio_cache.dart';
@@ -178,7 +179,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.yellow,
         fontFamily: 'FredokaOne',
       ),
-      home: MyHomePage(title: 'Owen Wilson Wowboard'),
+      home: MyHomePage(title: 'Play Sounds By Clicking On Emoji'),
     );
   }
 }
@@ -194,17 +195,19 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   /// Owen's Faces
+  /// 
+  int x=Random().nextInt(14);
   List<String> _headshots = [
-    'assets/images/owen1.png',
-    'assets/images/owen2.png',
-    'assets/images/owen3.png',
-    'assets/images/owen4.png',
-    'assets/images/owen5.png',
-    'assets/images/owen6.png',
+    'assets/1.png',
+    'assets/2.png',
+    'assets/3.png',
+    'assets/4.png',
+    'assets/5.png',
+    'assets/6.png',
   ];
 
   /// Owen's WOWs
-  final List _wows = WowSounds().wows;
+  final List _sounds = NewSounds().sounds;
 
   /// Audio Cache
   AudioCache audioCache;
@@ -233,7 +236,6 @@ class _MyHomePageState extends State<MyHomePage> {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
-          Text('Click a face, hear a WOW!'),
           GridView.builder(
             shrinkWrap: true,
             itemCount: 15,
@@ -281,7 +283,7 @@ class _MyHomePageState extends State<MyHomePage> {
               onTap: () {
                 if (mounted) {
                   setState(() {
-                    playSound(_wows[index]);
+                    playSound(_sounds[x]);
                     indexIsPlaying = index;
                   });
                 }
@@ -297,7 +299,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void initSounds() async {
     audioPlayer = AudioPlayer();
     audioCache = AudioCache(fixedPlayer: audioPlayer);
-    audioCache.loadAll(_wows);
+    audioCache.loadAll(_sounds);
   }
 
   void playSound(wow) async {
@@ -312,4 +314,3 @@ class _MyHomePageState extends State<MyHomePage> {
     audioPlayer.stop();
   }
 }
-

@@ -49,14 +49,9 @@ flutter:
     - assets/4.png
     - assets/5.png
     - assets/6.png
-    - assets/rahul.flac
-    - assets/rohan.wav
-    - assets/images/owen1.png
-    - assets/images/owen2.png
-    - assets/images/owen3.png
-    - assets/images/owen4.png
-    - assets/images/owen5.png
-    - assets/images/owen6.png
+    - assets/sounds/rahul.flac
+    - assets/sounds/rohan.wav
+    - assets/sounds/papa.wav
     - assets/sounds/wow1.mp3
     - assets/sounds/wow2.mp3
     - assets/sounds/wow3.mp3
