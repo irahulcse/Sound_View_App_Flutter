@@ -10,13 +10,11 @@ class NewSounds {
     'sounds/wow12.mp3',
     'sounds/papa.wav',
     'sounds/rahul.flac',
-    'sounds/rohan.wav'
+    'sounds/rohan.wav',
     'sounds/wow8.mp3',
     'sounds/wow9.mp3',
     'sounds/wow10.mp3',
     'sounds/wow11.mp3',
-    ,
-
 
   ];
 
