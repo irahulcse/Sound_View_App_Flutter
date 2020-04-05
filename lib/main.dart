@@ -31,19 +31,19 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   List<String> _shots = [
-    'assets/1.png',
-    'assets/2.png',
-    'assets/3.png',
-    'assets/4.png',
-    'assets/5.png',
-    'assets/6.png',
+    'assets/images/owen1.png',
+    'assets/images/owen2.png',
+    'assets/images/owen3.png',
+    'assets/images/owen4.png',
+    'assets/images/owen5.png',
+    'assets/images/owen6.png',
   ];
 
   AudioCache audioCache;
   AudioPlayer audioPlayer;
   final List _sounds = NewSounds().sounds;
   int indexIsPlaying;
-  
+
   @override
   void initState() {
     // TODO: implement initState
