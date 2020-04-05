@@ -39664,7 +39664,7 @@ F.vQ.prototype={
 P:function(a){return new S.oi(new F.ov("Sounds App",null),"Flutter Demo",X.X1(null,C.vq),!1,null)}}
 F.ov.prototype={
 aP:function(){var t=u.s
-return new F.Ap(H.b(["assets/1.png","assets/2.png","assets/3.png","assets/4.png","assets/5.png","assets/6.png"],t),H.b(["assets/rahul.flac","assets/rohan.wav","assets/papa.wav"],t),C.q)}}
+return new F.Ap(H.b(["assets/images/owen1.png","assets/images/owen2.png","assets/images/owen3.png","assets/images/owen4.png","assets/images/owen5.png","assets/images/owen6.png"],t),H.b(["assets/sounds/wow1.mp3","assets/sounds/wow2.mp3","assets/sounds/wow3.mp3","assets/sounds/wow4.mp3","assets/sounds/wow5.mp3","assets/sounds/wow6.mp3","assets/sounds/wow7.mp3","assets/sounds/wow8.mp3","assets/sounds/wow9.mp3","assets/sounds/wow10.mp3","assets/sounds/wow11.mp3","assets/sounds/wow12.mp3","assets/sounds/wow13.mp3","assets/sounds/wow14.mp3","assets/sounds/wow15.mp3"],t),C.q)}}
 F.Ap.prototype={
 b1:function(){this.bt()
 this.qg()},
