@@ -7,14 +7,15 @@ class NewSounds {
     'sounds/wow5.mp3',
     'sounds/wow6.mp3',
     'sounds/wow7.mp3',
+    'sounds/wow12.mp3',
+    'sounds/papa.wav',
+    'sounds/rahul.flac',
+    'sounds/rohan.wav'
     'sounds/wow8.mp3',
     'sounds/wow9.mp3',
     'sounds/wow10.mp3',
     'sounds/wow11.mp3',
-    'sounds/wow12.mp3',
-    'sounds/papa.wav',
-    'sounds/rahul.flac',
-    'sounds/rohan.wav',
+    ,
 
 
   ];
