@@ -96,9 +96,6 @@ When there have been changes in the main repo that you want to get, the cleanest
 
 For help getting started with Flutter, view our online
 [documentation](https://flutter.dev/).
-## Getting Started
-For help getting started with Flutter, view our online
-[documentation](https://flutter.dev/).
 
 
 ## Contribution:
